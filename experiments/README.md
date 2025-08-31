@@ -1,6 +1,6 @@
 # Experiments Log – Task 06 (AI Street Interview)
 
-This folder documents all experiments, trials, and alternative approaches explored while creating the AI-generated street interview for Research Task 07.
+This folder documents all experiments, trials, and alternative approaches explored while creating the AI-generated street interview for Research Task 06.
 
 ---
 
