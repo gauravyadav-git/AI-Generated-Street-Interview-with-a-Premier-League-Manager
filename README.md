@@ -1,16 +1,16 @@
-# Research Task 07 – AI Street Interview (Premier League 2022–23)
+# Research Task 076 – AI Street Interview (Premier League 2022–23)
 
 ## 📌 Overview
-This project is **Research Task 07**, which builds on earlier work from Task 05 and Task 06.
+This project is **Research Task 06**, which builds on earlier work from Task 05 part 1 and part 2.
 
-- In **Task 05**, I analyzed the Premier League 2022–23 dataset without grouping, generated descriptive statistics for the first 10 rows, designed LLM prompts, and compared AI responses with Python results.  
-- In **Task 06**, I extended the analysis to the full dataset by **grouping by stadium**, producing pivot-style summaries, targeted visualizations, and Python scripts for more complex queries.  
+- In **Task 05 - part 1**, I analyzed the Premier League 2022–23 dataset without grouping, generated descriptive statistics for the first 10 rows, designed LLM prompts, and compared AI responses with Python results.  
+- In **Task 05 - part 2**, I extended the analysis to the full dataset by **grouping by stadium**, producing pivot-style summaries, targeted visualizations, and Python scripts for more complex queries.  
 
-**Task 07** takes a creative turn by applying those insights to an **AI-generated “street interview”** with Arsenal manager **Mikel Arteta**, reflecting on team performance during the 2022–23 season and looking ahead to the future.
+**Task 06** takes a creative turn by applying those insights to an **AI-generated “street interview”** with Arsenal manager **Mikel Arteta**, reflecting on team performance during the 2022–23 season and looking ahead to the future.
 
 ---
 
-## 🏟 Task 07 Objective
+## 🏟 Task 06 Objective
 - Create a **street interview script** based on dataset insights (Task 05 focus: no grouping).  
 - Generate **AI audio interview** with distinct voices for interviewer and manager.  
 - Document multiple approaches attempted, including failures and final workflow.  
@@ -23,8 +23,8 @@ This project is **Research Task 07**, which builds on earlier work from Task 05 
 | File Name | Description |
 |-----------|-------------|
 | **script.txt** | Street interview script (5 interviewer Qs, 5 Arteta answers). |
-| **Task_07_Street_Interview.mp3** | Final merged AI audio interview. |
-| **experiments/** | Detailed logs of all approaches tried (ChatGPT, Gemini, ElevenLabs, Narakeet, Python, Clideo). |
+| **Task_06_Street_Interview.M4A** | Final merged AI audio interview. |
+| **experiments/** | Detailed logs of all approaches tried (ElevenLabs, Narakeet, Clideo). |
 | **README.md** | Project documentation, objectives, and workflow. |
 
 ---
