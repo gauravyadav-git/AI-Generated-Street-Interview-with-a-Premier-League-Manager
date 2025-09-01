@@ -1,4 +1,4 @@
-# Research Task 07 – AI Street Interview (Premier League 2022–23)
+# Research Task 06 – AI Street Interview (Premier League 2022–23)
 
 ## 📌 Overview
 This project is **Research Task 06**, which builds on earlier work from Task 05 part 1 and part 2.
