@@ -52,6 +52,19 @@ This folder documents all experiments, trials, and alternative approaches explor
 
 ---
 
+## 🔎 Approach 6: Wavel AI
+- Uploaded a fresh interview script into **Wavel AI**.  
+- **Strengths:**  
+  - Generated a **video output** with **auto-subtitles**.  
+  - Added **contextual content** beyond the script (e.g., references to Arsenal matches from just days ago).  
+  - Included **stock football and Arsenal visuals**, enhancing realism.  
+- **Limitations:**  
+  - Only **one voice** used (same for interviewer and Mikel Arteta).  
+  - Script role indicators (e.g., “Interviewer - …”) were read literally as part of the dialogue.  
+- **Final Output:** `Mikel Arteta Discusses Arsenal's Progress and Aspirations-mp4`.
+
+---
+
 ## 📊 Summary
 - Multiple tools were tested (ChatGPT, Gemini, ElevenLabs, Narakeet, Python).  
 - The final working workflow: **Script → Narakeet TTS (10 clips) → Clideo (merge) → Final Interview Audio**.  
