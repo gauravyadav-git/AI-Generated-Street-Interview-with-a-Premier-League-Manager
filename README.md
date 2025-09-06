@@ -22,10 +22,15 @@ This project is **Research Task 06**, which builds on earlier work from Task 05 
 
 | File Name | Description |
 |-----------|-------------|
-| **script.txt** | Street interview script (5 interviewer Qs, 5 Arteta answers). |
-| **Task_06_Street_Interview.M4A** | Final merged AI audio interview. |
-| **experiments/** | Detailed logs of all approaches tried (ElevenLabs, Narakeet, Clideo). |
-| **README.md** | Project documentation, objectives, and workflow. |
+| **script.txt** | Interview script used as input for audio/video generation. |
+| **Task_06_Street_Interview.mp3** | Final merged audio interview (from Narakeet + Clideo). |
+| **Mikel Arteta Discusses Arsenal's Progress and Aspirations-mp4** | Final video interview (Wavel AI) with subtitles and stock footage. |
+| **experiments/** | Documentation of all attempts (ChatGPT, Gemini, ElevenLabs, Narakeet, Wavel AI). |
+| ├── **README.md** | Detailed log of experiments and outcomes. |
+| ├── **chatgpt_attempts.txt** | Notes from ChatGPT/Gemini trials. |
+| ├── **elevenlabs_attempts.txt** | Notes from voice cloning test. |
+| ├── **narakeet_clips/** | 10 generated audio clips before merging. |
+| └── **clideo_merge.txt** | Notes on merging Narakeet clips into one audio file. |
 
 ---
 
@@ -37,22 +42,25 @@ This project is **Research Task 06**, which builds on earlier work from Task 05 
 3. **ElevenLabs** → Successful voice cloning of Arteta using sample from `voicy.network`, but full TTS required paid subscription.  
 4. **Narakeet** → Generated 10 separate clips (Interviewer + Arteta).  
 5. **Clideo.com** → Merged clips into single interview.  
-6. **Python (pydub)** → Attempted merging locally, but required FFmpeg installation. Not pursued.  
+6. **Python (pydub)** → Attempted merging locally, but required FFmpeg installation. Not pursued.
+7. **WavelAI** → Generated a video Interview.
 
 ### ✅ Final Workflow
-1. Drafted script.  
-2. Generated 10 separate audio clips in **Narakeet** using two different voices.  
-3. Merged the clips into a full interview using **Clideo.com**.  
-4. Exported final interview as `Task_07_Street_Interview.mp3`.  
+1. Drafted street interview script (Interviewer + Mikel Arteta).  
+2. Tested multiple platforms (ChatGPT, Gemini, ElevenLabs, Narakeet).  
+3. Produced audio-only interview with Narakeet + Clideo.  
+4. Produced a **video interview with Wavel AI**, including auto-subtitles and contextual football clips.  
 
 ---
 
 ## 📊 Reflection
-This task allowed me to:
-- Apply statistical insights in a narrative, real-world scenario.  
-- Experiment with multiple AI tools, balancing free-tier limitations and desired output quality.  
-- Learn practical problem-solving skills: pivoting between tools until a working workflow was achieved.  
+This task demonstrated:  
+- How **analytical insights** can be transformed into narrative storytelling.  
+- The process of **evaluating and troubleshooting multiple AI tools** (balancing free vs. paid features).  
+- How **different platforms add different value**:  
+  - Narakeet gave controlled dialogue (audio only).  
+  - Wavel AI added creativity, recent football references, and stock visuals for a realistic video.  
 
-The final product demonstrates not only technical skills but also adaptability in leveraging available tools to complete the assignment successfully.
+The final result is a combination of **audio and video deliverables**, showing both technical adaptability and creative application of AI tools.
 
 ---
